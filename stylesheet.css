@@ -1,0 +1,113 @@
+* {
+	padding: 0%;
+	margin: 0%;
+}
+
+body {
+	width: 80%;
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+	background: #51457F;
+}
+
+header {
+	display: block;
+	margin: 8% auto 5%;
+	text-align: center;
+}
+
+main {
+	width: 70%;
+	padding: 2%;
+	background: #DFD6FF;
+	margin: auto;
+}
+
+ul {
+	display: block;
+	width: 90%;
+	clear: left;
+	/* list-style: disc inside none; */
+}
+
+main > ul {
+	margin: auto;
+}
+
+li ul {
+	margin: auto 4%;
+}
+
+aside ul {
+	float: right;
+	/* margin-right: 0%; */
+}
+
+li {
+	/* margin: 2.5% auto; */
+	padding-top: 3%;
+	list-style: none;
+}
+
+li li {
+	list-style: none;
+	padding-top: 2.5%;
+}
+
+li li li {
+	list-style: disc outside none;
+	padding-top: 1%;
+}
+
+aside ul li {
+	list-style: none;
+}
+
+ul.langs li {
+	margin-left: 2.5%;
+	padding-top: 1.5%;
+}
+
+ul.interests li {
+	list-style: disc outside none;
+	margin-left: 4.5%;
+	padding-top: 1.5%;
+}
+
+h1 {
+	color: #DFD6FF;
+}
+
+h2 {
+	/* margin-left: 10%; */
+}
+
+h3 {
+	font-weight: bold;
+}
+
+h4 {
+	display: block;
+	width: 50%;
+	float: left;
+	font-weight: 900;
+}
+
+aside {
+	display: block;
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+a {
+	text-decoration: none;
+	color: #B2ACCC;
+}
+
+li.place {
+	list-style: none;
+	margin-left: -2.5%;
+	padding-top: 0%;
+	font-style: italic;
+}
