@@ -6,8 +6,9 @@
 body {
 	width: 80%;
 	margin: auto;
-	font-family: 'Roboto', sans-serif;
-	background: #51457F;
+	font-family: 'Raleway', sans-serif;
+	background: #FFF;
+	color: #FFF;
 }
 
 header {
@@ -19,15 +20,14 @@ header {
 main {
 	width: 70%;
 	padding: 2%;
-	background: #DFD6FF;
 	margin: auto;
+	padding-top: 0%;
 }
 
 ul {
 	display: block;
-	width: 90%;
+	/* width: 90%; */
 	clear: left;
-	/* list-style: disc inside none; */
 }
 
 main > ul {
@@ -35,7 +35,7 @@ main > ul {
 }
 
 li ul {
-	margin: auto 4%;
+	margin: auto 0%;
 }
 
 aside ul {
@@ -44,19 +44,23 @@ aside ul {
 }
 
 li {
-	/* margin: 2.5% auto; */
-	padding-top: 3%;
+	/* margin: 2.5% auto;
+	padding-top: 3%; */
 	list-style: none;
+	padding: 2%;
+	margin: 2%;
 }
 
 li li {
 	list-style: none;
-	padding-top: 2.5%;
+	/* padding-top: 2.5%; */
+	padding: 1%;
+	margin: 0%;
 }
 
 li li li {
-	list-style: disc outside none;
-	padding-top: 1%;
+	list-style: none;
+	padding: 0%;
 }
 
 aside ul li {
@@ -64,26 +68,37 @@ aside ul li {
 }
 
 ul.langs li {
-	margin-left: 2.5%;
-	padding-top: 1.5%;
+	display: inline;
+	margin-right: 2%;
+	/*margin-left: 2.5%;
+	padding-top: 1.5%; */
 }
 
-ul.interests li {
+#interests li {
 	list-style: disc outside none;
-	margin-left: 4.5%;
-	padding-top: 1.5%;
+	/* margin-left: 4.5%;
+	padding-top: 1.5%; */
+	list-style: none;
+}
+
+li p {
+	display: inline;
 }
 
 h1 {
-	color: #DFD6FF;
+	color: #000;
+	font-weight: normal;
+	font-size: 500%;
 }
 
 h2 {
-	/* margin-left: 10%; */
+	display: none;
 }
 
 h3 {
 	font-weight: bold;
+	font-size: 150%;
+	padding-bottom: 0.25%;
 }
 
 h4 {
@@ -98,16 +113,99 @@ aside {
 	float: right;
 	width: 50%;
 	text-align: right;
+	font-weight: bold;
 }
 
 a {
 	text-decoration: none;
-	color: #B2ACCC;
+	font-size: 150%;
+	color: #AAA;
+}
+
+#education {
+	background-color: #FA3E3E;
+}
+
+#ed {
+	color: #FA3E3E;
+}
+
+#skillslangs {
+	background-color: #7152FB;
+}
+
+#skills {
+	color: #7152FB;
+	/* #614ED0 */
+}
+
+li.skillseven {
+	background-color: #614ED0;
+}
+
+#awards {
+	background-color: #00C36C;
+}
+
+li.awardseven {
+	background-color: #008349;
+}
+
+#aaa {
+	color: #00C36C;
+}
+
+#experience {
+	background-color: #1173DC;
+}
+
+li.expreven {
+	background-color: #0E5CB0;
+}
+
+#expr {
+	color: #1173DC;
+}
+
+#interests {
+	background-color: #FF9E0D; /* #FFBE0D; /* #F7B80D; */
+}
+
+li.intereven {
+	background-color: #E08B0B; /* #E8AD0C; /* #D49E0B; */
+}
+
+#inter {
+	color: #FF9E0D; /* #FFBE0D; */
+}
+
+#natural_langs {
+	display: none;
+}
+
+#experience li, {
+	padding-bottom: 2%;
+}
+
+#experience ul > li, #awards ul > li {
+	padding-bottom: 1.5%;
+}
+
+#experience ul > li:not(.place), #awards ul > li:not(.place) {
+	list-style: disc outside;
+	margin-left: 5%;
 }
 
 li.place {
 	list-style: none;
-	margin-left: -2.5%;
+	/* margin-left: -2.5%; */
 	padding-top: 0%;
+	font-weight: lighter;
 	font-style: italic;
+}
+
+
+
+ul.langs {
+	display: inline;
 }
