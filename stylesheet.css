@@ -1,3 +1,9 @@
+/* Hi! Welcome to my code!
+		(please note that while I enjoy fooling around
+		 with CSS from time to time, this is more of a
+		 fun project and does not represent the full extent
+		 of my coding ability. :) )*/
+
 * {
 	padding: 0%;
 	margin: 0%;
@@ -7,7 +13,7 @@ body {
 	width: 80%;
 	margin: auto;
 	font-family: 'Raleway', sans-serif;
-	background: #FFF;
+	background: #000;/* #FFF; */
 	color: #FFF;
 }
 
@@ -26,7 +32,6 @@ main {
 
 ul {
 	display: block;
-	/* width: 90%; */
 	clear: left;
 }
 
@@ -40,12 +45,9 @@ li ul {
 
 aside ul {
 	float: right;
-	/* margin-right: 0%; */
 }
 
 li {
-	/* margin: 2.5% auto;
-	padding-top: 3%; */
 	list-style: none;
 	padding: 2%;
 	margin: 2%;
@@ -53,7 +55,6 @@ li {
 
 li li {
 	list-style: none;
-	/* padding-top: 2.5%; */
 	padding: 1%;
 	margin: 0%;
 }
@@ -70,14 +71,10 @@ aside ul li {
 ul.langs li {
 	display: inline;
 	margin-right: 2%;
-	/*margin-left: 2.5%;
-	padding-top: 1.5%; */
 }
 
 #interests li {
 	list-style: disc outside none;
-	/* margin-left: 4.5%;
-	padding-top: 1.5%; */
 	list-style: none;
 }
 
@@ -86,7 +83,7 @@ li p {
 }
 
 h1 {
-	color: #000;
+	color: #FFF;
 	font-weight: normal;
 	font-size: 500%;
 }
@@ -98,12 +95,13 @@ h2 {
 h3 {
 	font-weight: bold;
 	font-size: 150%;
-	padding-bottom: 0.25%;
+	padding-bottom: 1%;
 }
 
 h4 {
 	display: block;
 	width: 50%;
+	margin-right: 5%;
 	float: left;
 	font-weight: 900;
 }
@@ -111,7 +109,7 @@ h4 {
 aside {
 	display: block;
 	float: right;
-	width: 50%;
+	width: 40%;
 	text-align: right;
 	font-weight: bold;
 }
@@ -119,64 +117,43 @@ aside {
 a {
 	text-decoration: none;
 	font-size: 150%;
-	color: #AAA;
+	color: #858484;
 }
 
-#education {
-	background-color: #FA3E3E;
+ul.odd {
+	background-color: #265C3B;
 }
 
-#ed {
-	color: #FA3E3E;
+li.oddeven {
+	background-color: #1C422B;
 }
 
-#skillslangs {
-	background-color: #7152FB;
+h3.odd, ul.odd h4 {
+	color: #61E896;
 }
 
-#skills {
-	color: #7152FB;
-	/* #614ED0 */
+
+ul.even {
+	background-color: #6D312D;
 }
 
-li.skillseven {
-	background-color: #614ED0;
+li.eveneven {
+	background-color: #3A1A18;
 }
 
-#awards {
-	background-color: #00C36C;
+h3.even {
+	color: #DF645E;
 }
 
-li.awardseven {
-	background-color: #008349;
+ul.even h4 {
+	color: #DF645E;
 }
 
-#aaa {
-	color: #00C36C;
-}
 
-#experience {
-	background-color: #1173DC;
-}
 
-li.expreven {
-	background-color: #0E5CB0;
-}
 
-#expr {
-	color: #1173DC;
-}
-
-#interests {
-	background-color: #FF9E0D; /* #FFBE0D; /* #F7B80D; */
-}
-
-li.intereven {
-	background-color: #E08B0B; /* #E8AD0C; /* #D49E0B; */
-}
-
-#inter {
-	color: #FF9E0D; /* #FFBE0D; */
+li a:hover {
+	color: #FFF;
 }
 
 #natural_langs {
@@ -187,25 +164,35 @@ li.intereven {
 	padding-bottom: 2%;
 }
 
-#experience ul > li, #awards ul > li {
+#experience ul > li, #awards ul > li, #projects ul > li {
 	padding-bottom: 1.5%;
 }
 
-#experience ul > li:not(.place), #awards ul > li:not(.place) {
+#experience ul > li:not(.place), #awards ul > li:not(.place), #projects ul > li:not(.place) {
 	list-style: disc outside;
 	margin-left: 5%;
 }
 
 li.place {
+	color: #0A170F;
 	list-style: none;
-	/* margin-left: -2.5%; */
 	padding-top: 0%;
 	font-weight: lighter;
 	font-style: italic;
+}
+
+ul.even li.place {
+	color: #050202;
 }
 
 
 
 ul.langs {
 	display: inline;
+}
+
+li a {
+	color: #0A170F;
+	font-size: 100%;
+	font-style: normal;
 }
