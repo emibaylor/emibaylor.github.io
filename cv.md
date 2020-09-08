@@ -1,6 +1,120 @@
 ---
 layout: page
-title: Research
-permalink: /research/
+title: CV
+nav-menu: true
+image: assets/images/funicular_2.jpg
 ---
-~~ Coming Soon ~~
+
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>CV</h1>
+		</header>
+
+<!-- Content -->
+<!-- <h3>Work Experience</h3> -->
+
+<h4>Experience</h4>
+<div class="table-wrapper">
+	<table>
+		<!-- <thead>
+			<tr>
+				<th>Name</th>
+				<th>Description</th>
+				<th>Price</th>
+			</tr>
+		</thead> -->
+		<tbody>
+			<tr>
+				<td>AI for Humanity Intern</td>
+				<td>Mila, Quebec AI Institute</td>
+        <td>
+          <ul>
+            <li>Developed a BERT-based question answering tool to help speed up analysis of financial documents relating to climate change.</li>
+          </ul>
+        </td>
+        <td>Jan 2020-July 2020</td>
+			</tr>
+			<tr>
+				<td>Research Assistant</td>
+				<td>Montreal Computational and Quantitative Linguistics Lab (MCQLL)</td>
+        <td>
+          <ul>
+            <li>Implemented algorithms for and tested the predictions of various models of linguistic productivity.</li>
+          </ul>
+        </td>
+        <td>Aug 2018-Aug 2020</td>
+			</tr>
+			<tr>
+				<td>Participant, 2019 Cohort</td>
+				<td>AI4Good Summer Lab, Mila Quebec AI Institute</td>
+				<td>
+          <ul>
+            <li>Participated in an 8-week intensive AI and ML training program for women and gender minorities.</li>
+            <li>Trained unsupervised LDA models to categorize climate change-related articles.</li>
+            <li>Analyzed article contents using word2vec and sentiment analysis, with the goal of investigating climate change coverage.</li>
+          </ul>
+        </td>
+        <td>May 2019-June 2019</td>
+			</tr>
+			<tr>
+				<td>Intramural Game Official</td>
+        <td>McGill University Athletics</td>
+        <td>
+          <ul>
+            <li>Facilitated and/or refereed ultimate frisbee and inner-tube water polo games.</li>
+          </ul>
+        </td>
+				<td>Sept 2016-April 2017</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h4>Awards</h4>
+<div class="table-wrapper">
+	<table>
+		<tbody>
+			<tr>
+				<td>Award for Excellency in Research</td>
+				<td>McGill Department of Linguistics</td>
+        <td>Awarded for an outstanding research project and demonstrated proficiency in research skills.</td>
+        <td>May 2020</td>
+			</tr>
+			<tr>
+				<td>Margaret Jane Allan Scholarship</td>
+				<td>McGill University Faculty of Arts</td>
+        <td>Awarded to the woman student with the highest academic standing after the first year of the B.A. course.</td>
+        <td>Aug 2016</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<h4>Education</h4>
+<div class="table-wrapper">
+	<table>
+		<tbody>
+			<tr>
+				<td>MSc</td>
+        <td>Computer Science</td>
+				<td>McGill University</td>
+        <td>Expected Graduation Date: May 2022</td>
+			</tr>
+			<tr>
+				<td>BA</td>
+        <td>Linguistics Honours Major, Computer Science Minor</td>
+        <td>McGill University</td>
+        <td>Aug 2015-May 2020</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+</div>
+</section>
+</div>
