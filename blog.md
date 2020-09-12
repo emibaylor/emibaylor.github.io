@@ -7,7 +7,7 @@ description: null
 image: null
 author: null
 show_tile: true
-image: <!-- assets/images/seal_street-art.jpg -->
+image: 
 ---
 
 This blog is having an existential crisis.

@@ -35,6 +35,7 @@ image: assets/images/funicular_2.jpg
         <td>
           <ul>
             <li>Developed a BERT-based question answering tool to help speed up analysis of financial documents relating to climate change.</li>
+						<li>Presented a poster and short <a href='https://www.youtube.com/watch?v=1ey89v0dkho' target="blank">video</a> at the 2020 Montreal AI Symposium.</li>
           </ul>
         </td>
         <td>Jan 2020-July 2020</td>
