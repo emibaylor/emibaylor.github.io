@@ -18,6 +18,26 @@ image: assets/images/funicular_2.jpg
 <!-- Content -->
 <!-- <h3>Work Experience</h3> -->
 
+<h4>Education</h4>
+<div class="table-wrapper">
+	<table>
+		<tbody>
+			<tr>
+				<td>MSc</td>
+        <td>Computer Science</td>
+				<td>McGill University</td>
+        <td>Expected Graduation Date: May 2022</td>
+			</tr>
+			<tr>
+				<td>BA</td>
+        <td>Linguistics Honours Major, Computer Science Minor</td>
+        <td>McGill University</td>
+        <td>Aug 2015-May 2020</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
 <h4>Experience</h4>
 <div class="table-wrapper">
 	<table>
@@ -34,8 +54,10 @@ image: assets/images/funicular_2.jpg
 				<td>Mila, Quebec AI Institute</td>
         <td>
           <ul>
-            <li>Developed a BERT-based question answering tool to help speed up analysis of financial documents relating to climate change.</li>
-						<li>Presented a poster and short <a href='https://www.youtube.com/watch?v=1ey89v0dkho' target="blank">video</a> at the 2020 Montreal AI Symposium.</li>
+						<li>Worked at the intersection of Natural Language Processing and climate change.</li>
+						<li>Specific work is currently under review for publication and cannot be shared for anonymity reasons.</li>
+            <!-- <li>Developed a BERT-based question answering tool to help speed up analysis of financial documents relating to climate change.</li>
+						<li>Presented a poster and short <a href='https://www.youtube.com/watch?v=1ey89v0dkho' target="blank">video</a> at the 2020 Montreal AI Symposium.</li> -->
           </ul>
         </td>
         <td>Jan 2020-July 2020</td>
@@ -96,25 +118,6 @@ image: assets/images/funicular_2.jpg
 	</table>
 </div>
 
-<h4>Education</h4>
-<div class="table-wrapper">
-	<table>
-		<tbody>
-			<tr>
-				<td>MSc</td>
-        <td>Computer Science</td>
-				<td>McGill University</td>
-        <td>Expected Graduation Date: May 2022</td>
-			</tr>
-			<tr>
-				<td>BA</td>
-        <td>Linguistics Honours Major, Computer Science Minor</td>
-        <td>McGill University</td>
-        <td>Aug 2015-May 2020</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
 
 </div>
 </section>
