@@ -1,7 +1,7 @@
 # site settings
 title: Emi
 subtitle: Baylor
-email: mailto:emi.baylor@gmail.com
+email: contact.emibaylor@gmail.com
 description: 'MSc student in Computational Linguistics and Natural Language Processing'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
@@ -18,15 +18,15 @@ tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
 # social settings
-500px_url:
-facebook_url:
+# 500px_url:
+# facebook_url:
 github_url: https://github.com/emibaylor
 # gitlab_url:
 # googleplus_url:
-instagram_url:
+instagram_url: https://www.instagram.com/emibaylor/
 linkedin_url: https://www.linkedin.com/in/emibaylor
-pinterest_url:
-slack_url:
+# pinterest_url:
+# slack_url:
 twitter_url: https://twitter.com/emibaylor
 
 # build settings
