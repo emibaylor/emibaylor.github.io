@@ -26,7 +26,7 @@ image: assets/images/funicular_2.jpg
 				<td>MSc</td>
         <td>Computer Science</td>
 				<td>McGill University</td>
-        <td>Aug 2020–May 2022 (Expected)</td>
+        <td>Aug 2020–June 2023 (Expected)</td>
 			</tr>
 			<tr>
 				<td>BA</td>

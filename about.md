@@ -18,7 +18,7 @@ nav-menu: true
 			<h2>Welcome!</h2>
 		</header>
 		<p>I am currently a master's student in Computer Science at McGill University and Mila Quebec AI Institute, focusing on Computational Linguistics and Natural Language Processing. </p>
-		<p>I love swimming, traveling, and intramural inner-tube water polo.</p>
+		<p>I love swimming, traveling, and knitting.</p>
 		<p>I dislike mosquitoes and writing about myself.</p>
 	</div>
 </section>
@@ -34,7 +34,7 @@ nav-menu: true
 				<header class="major">
 					<h3><a href="research.html">Research</a></h3>
 				</header>
-				<p>Among my research interests are computational morphology and NLP for low-resource languages. </p>
+				<p>Among my research interests are computational typology and NLP for low-resource languages. </p>
 				<ul class="actions">
 					<li><a href="research.html" class="button next">Learn more</a></li>
 				</ul>
